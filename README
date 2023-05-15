@@ -1,0 +1,5 @@
+METALLB Configuration for KUBERNETES CLUSTER on VM BOX, 
+1.Apply namespace.yaml --> Command---> kubectl apply -f namespace.yaml
+2.Apply mani.yaml--> Command---> kubectl apply -f mani.yaml
+3.Apply metallbsecret.yaml or Run command from secret.txt  --> Command---> kubectl apply -f metallbsecret.yaml || copy and run command in secret.txt
+4.Apply metallbconfig.yaml --> Command---> kubectl apply -f metallbconfig.yaml
